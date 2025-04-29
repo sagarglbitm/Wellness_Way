@@ -30,7 +30,7 @@ jobs:
 
       # === Backend Steps ===
       - name: Install Backend Dependencies
-        working-directory: ./backend
+        working-directory: ./Backend
         run: npm install
 
       - name: Run Backend Tests (skip if none)
