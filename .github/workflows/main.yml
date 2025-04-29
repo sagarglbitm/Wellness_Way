@@ -42,5 +42,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.TOKEN }}
-          # if you using vite project then it will create dist folder when you build otherwise it create build folfer [pleae chk]
-          publish_dir: ./frontend/dist 
+          publish_dir: ./frontend/dist
